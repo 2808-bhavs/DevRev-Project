@@ -1,0 +1,1 @@
+{"filename": "s3_files/lambda_layer\\9fe46b9851c0f9978b50f3f84122565724402f4ed415b3b64a811f2e317f0597.zip", "runtime": "python3.9", "artifacts_dir": "s3_files/lambda_layer", "build_plan": [["pip", "python3.9", "./../requirements.txt", "python"]]}

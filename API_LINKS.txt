@@ -1,0 +1,33 @@
+Authentications:
+Headers:
+1. x-api-key(k4lEuluBzw3Rj0rHyvlKK3ytqkm4ysXgF7ZBs4yh)
+2. email
+3. password
+
+APIS:
+1. GET-FLIGHT-DETAILS
+	URL: https://n3ex1fhmv6.execute-api.ap-southeast-1.amazonaws.com/Development/v1/flight/get-flight?date=2023-07-16&from=chennai&to=tirupati&time_from=06:30:00&time_to=21:30:00
+
+2. GET-BOOKING-DETAILS
+	URL: https://n3ex1fhmv6.execute-api.ap-southeast-1.amazonaws.com/Development/v1/flight/get-booking
+
+3. ADD-USER
+	URL: https://n3ex1fhmv6.execute-api.ap-southeast-1.amazonaws.com/Development/v1/flight/user
+	Sample-payload:{
+    	"email":"kiran@gmail.com",
+    	"password":"kiran@123",
+   	"is_admin":false
+	}
+
+4. BOOK-TICKET
+	URL: https://n3ex1fhmv6.execute-api.ap-southeast-1.amazonaws.com/Development/v1/flight/book-ticket
+	Sample-payload:{
+    	"journeyId": "1003",
+    	"flightNumber": "ID-1234",
+    	"flightName": "Indigo",
+    	"dateOfJourney": "2023-07-20",
+    	"From": "chennai",
+    	"To": "kurnool",
+    	"departureTime": "2023-07-20 07:30:00",
+    	"arrivalTime": "2023-07-20 08:30:00"
+	}
